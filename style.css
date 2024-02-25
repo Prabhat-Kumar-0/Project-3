@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 60px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bottom-left{
+    /* height: 30%; */
+    width: 100%;
+    /* background-color: yellow; */
+
+}
+.color{
+    /* background-color: blue;  */
+    width: fit-content;
+    padding: 5px 5px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.color h5{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.color1{
+    height: 15px;
+    width: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 2px;
+}
+.color2{
+    height: 15px;
+    width: 15px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
+#left h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+#left p{
+    font-size: 14px;
+    width: 70%;
+    font-weight: 500;
+    color: #444;
+    line-height: 17px;
+}
+#right{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    position: relative;
+} 
+#right-top{
+   height: 40px;
+   width: 100%;
+   /* background-color: red;  */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right:10px ;
+}
+#right-top h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#right-top h5{
+    font-size: 15px;
+}
+#right-top h5 i{
+    color: gold ;
+}
+#right img{
+    width: 100%;
+}
+.black-circle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    right: -13%;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black-circle h5{
+     font-size: 30px;  
+     font-weight: 400;
+}
+#rotated{
+    position: absolute;
+    left: -10%;
+    bottom: 3%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
